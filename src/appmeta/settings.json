@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "title": {
+      "type": "string",
+      "label": "Event",
+      "default": "Next event",
+      "max_length": 64,
+      "sensitive": false
+    },
+    "date": {
+      "type": "string",
+      "label": "Date YYYY-MM-DD",
+      "default": "",
+      "max_length": 10,
+      "sensitive": false
+    },
+    "time": {
+      "type": "time",
+      "label": "Time",
+      "default": "09:00"
+    },
+    "utc_offset": {
+      "type": "integer",
+      "label": "UTC offset (min)",
+      "default": 0,
+      "min": -720,
+      "max": 840,
+      "step": 15
+    },
+    "sound": {
+      "type": "boolean",
+      "label": "Sound",
+      "default": true
+    }
+  }
+}

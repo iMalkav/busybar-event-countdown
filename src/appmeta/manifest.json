@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.event_countdown",
+  "name": "Event Countdown",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Count down to a date and time that matters to you.",
+  "heap_size_kib": 256,
+  "debug": false
+}
