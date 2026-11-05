@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-05T13:52:32.053728+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.event_countdown",
+    "name": "Event Countdown",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Count down to a date and time that matters to you.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "title": "Launch day",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "utc_offset": 180,
+      "sound": false
+    }
+  },
+  "inputs": [],
+  "data_note": "A sample event two days after capture, at 18:00 UTC+03:00.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "57b1e080bd9896a3f035d54c65533cd0fa69b49af175c15f45c56e3c5fa1e4ad",
+      "png_sha256": "754ff78f8586a02d23d07cece54523745217832f5c963d864678a53530a65dcf"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "d83fa31404388cbc28fef15ad6a2e2c8819047e5419a2c5ff544a82cdcffe58a",
+      "png_sha256": "07d65a465cc02264ecbb1771109a81da56eec4e7c451df316c07001cf29497bf"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
